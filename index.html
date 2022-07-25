@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+<!--Link to CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!--box icon-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body> 
+    <!--Header-->
+    <header>
+        <!-- Nav -->
+        <div class="nav container">
+
+        <a href="#" class="logo"> Neil Andrew </a>
+        <!--NAVbar-->
+        <ul class="navbar">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <!--Menu Icon-->
+            <div class="menu-icon">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+                    
+            </div>
+        </div>
+    </header>
+        <!--Home-->
+        <section class="home container="id="home">
+            <div class="home-content">
+                <div class="home-img">
+                    <img src="new-profile.png" alt="">
+                </div>
+                <div class="home-text">
+                    <h3>Greetings!</h3>
+                    <h2>I'm <span class="color">Neil Andrew</span></h2>
+                    <p>
+                        Currently studying <span class="color">B.S Information Technology </span> on Don Honorio Ventura State University <span class="color">(D.H.V.S.U)</span>. Im 4th Year College and I've been a <span class="color">team leader ever since I was on my High-School.</span>
+                        <br>Here's a bit more <span class="color">about me.</span>
+                    </p>
+
+                    <!--Social-->
+                    <div class="social">
+                        <a href="https://www.facebook.com/an.dreew.23/"><i class='bx bxl-facebook' ></i></a>
+                        <a href="https://twitter.com/An_rew__"><i class='bx bxl-twitter' ></i></a>
+                        <a href="https://www.instagram.com/dhrew__/?hl=en"><i class='bx bxl-instagram' ></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+    <!--ABOUT-->    
+        <section class="about container" id="about">
+            <h2 class="heading">About</h2>
+            <!--About context-->
+            <div class="about-content">
+                <div class="about-data">
+                    <span>About Me</span>
+                    <h2>Web Developer and Security Analysis</h2>
+                    <a href="CV.DOCX" class="btn">
+                        Download CV
+                        <i class='bx bx-download'></i>
+                    </a>
+                </div>
+                <div class="about-text">
+                    <p> I'm a 3(R) Reliable, Responsible and Resourceful </p>
+                    <p>Dedicated and have basic knowledge in speaking in english . Hands-on on projects specially if with team. A TEAM Leader and also a seeker for knowledge.</p>
+                </div>
+            </div>
+        </section>
+        <!--Skills-->
+        <section class="skills container" id="skills">
+                <!--Heading-->
+            <h2 class="heading">Skills</h2>
+            <!--Skills content-->
+            <div class="skills-content">
+            <div class="skills-box">
+                <i class='bx bxl-html5' ></i>
+                <h2>HTML</h2>
+                <p>HTML as my first ever language that I fell inlove with, because its easy to learn and you can practice in creating a website using this</p>
+            </div>
+            <div class="skills-box">
+                <i class='bx bxl-javascript' ></i>
+                <h2>JAVA</h2>
+                <p>One of the complicated i found but yet its amazing to learn this. I have keen knowledge on this.</p>
+            </div><div class="skills-box">
+                <i class='bx bxs-file-css' ></i>
+                <h2>CSS</h2>
+                <p>Working on CSS really made your imagination possible.</p>
+            </div>
+
+            </div>
+        </section>
+
+         <!--Contanct-->
+        <section class="contact container" id="contact">
+                <!--Heading-->
+            <h2 class="heading">Contact</h2>
+                <!--Contanct Form-->
+                <h2>Email ME! neilandrewlugtu@gmail.com</h2>
+            </form>
+        </section>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"> </script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+          <script type="text/javascript">
+                    (function(){
+                    emailjs.init("GWYKBwCXA4xSHy3B");
+                    })();
+                    </script>
+
+        <!--Link to js-->
+    <script src="main.js"></script>
+</body>
+</html>
